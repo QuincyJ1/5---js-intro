@@ -100,20 +100,60 @@ console.log(`${skaicius} * ${daugiklis++} = ${rezultatas*8}`);
 console.log(`${skaicius} * ${daugiklis++} = ${rezultatas*9}`);
 console.log(`${skaicius} * ${daugiklis++} = ${rezultatas*10}`);
 
+console.clear();
 
 
 
 
 
+console.clear();
+
+const multiplier = 3;
+
+let number = 0; 
+
+const lentele3 = `
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+${multiplier} * ${++number} = ${multiplier * number}
+
+`
+
+console.log(lentele3);
+
+console.clear();
+
+const str = 'pavyzdys';
+
+
+console.log(str.length);
+
+let strIndex = 0; 
+
+console.log(str[strIndex++]);    // issaukia reikiama simboli is teksto. Simboliu indexas prasideda nuo 0 //
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
+console.log(str[strIndex++]);
 
 
 
 
+console.clear();
+
+const userFirstName = 'Chuck';
+const userLastName = 'Norris';
+
+const userAbbr = `${userFirstName[0]}.${userLastName[0]}.`
 
 
-
-
-
+console.log(userAbbr);
 
 
 

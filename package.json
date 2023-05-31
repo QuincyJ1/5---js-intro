@@ -2,8 +2,11 @@
   "name": "5---js-intro",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "main": "index.js",
   "scripts": {
+    "import":"nodemon ./js/05-import.js",
+    "boolean":"nodemon ./js/04-boolean.js",
     "uzduotis":"nodemon ./js/uzduotis.js",
     "strings": "nodemon ./js/03-strings.js", 
     "numbers": "nodemon ./js/02-numbers.js",
