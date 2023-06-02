@@ -76,3 +76,11 @@ console.clear();
 
 // const vidurkis = (p1 + p2 + p3 + p4 + p5) / 5;
 // console.log(vidurkis);
+
+let m = 7
+
+console.log(m);   // 7  //turiu 7
+consoloe.log(++m); // 8   // gaunu 9 -> log
+console.log(m++); // 8 //log 8 -> 9
+console.log(m++); // 9   // 9 -> 10
+console.log(++m); //11   // 11 - > log.
