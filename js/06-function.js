@@ -62,17 +62,20 @@ console.clear();
 // Sveiki, mano vardas Petras ir man 50 metai!
 // Sveiki, mano vardas Ona ir man 25 metai
 
-function dalyvis(vardas, metai) {
-return `${vardas} ${metai}`;
+function intro(name, age) {
+return `Sveiki, mano vardas ${name} ir man ${age} metai`;
 
 }
 
-const dalyvis1 = dalyvis ('Jonas', '99')
-const dalyvis2 = dalyvis ('Maryte', '88')
-const dalyvis3 = dalyvis ('Petras', '50')
-const dalyvis4 = dalyvis ('Ona', '25')
+const intro1 = intro('Jonas', 99);
+const intro2 = intro('Maryte', 88);
+const intro3 = intro('Petras', 50);
+const intro4 = intro('Ona', 25);
 
-console.log('Sveiki, mano vardas ', dalyvis1(vardas)  );
+console.log(intro1);
+console.log(intro2);
+console.log(intro3);
+console.log(intro4);
 
 
 
