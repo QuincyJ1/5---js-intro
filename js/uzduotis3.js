@@ -226,7 +226,7 @@ console.log(`m4 ketvertai = ${ketvertai4}`);
 console.log(`m4 penketai = ${penketai4}`)
 
 
-console.clear()
+console.log('----------------------------------')
 
 function sumaIntervale(nuo, iki) {
     let suma = 0
