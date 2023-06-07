@@ -228,11 +228,13 @@ console.log(`m4 penketai = ${penketai4}`)
 
 console.log('----------------------------------')
 
-function sumaIntervale(nuo, iki) {
-    let suma = 0
-    for (let i = 0; i < 5; i++) {
 
-    }
-    return suma; 
+
+
+function sumaIntervale(nuo, iki) {
+    
+   
+    return iki * (iki + 1) / 2;
 }
 
+console.log(sumaIntervale(0, 10000));

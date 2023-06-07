@@ -132,3 +132,15 @@ for (let i = 0; i < masyvas1.length; i++) {
 
 console.clear();
 
+
+
+/* jeigu reikia suzinoti, kokia yra skaiciu suma dideliam intervale, naudoti formule 
+return n + (n + 1) / 2.
+PVZ: function sumaIntervale(nuo, iki) {
+    
+   
+    return iki * (iki + 1) / 2;
+}
+
+console.log(sumaIntervale(0, 10000));
+*/
