@@ -120,3 +120,15 @@ for (let i = 0; i < masyvas1.length; i++) {
 
 }
 
+
+console.clear();
+
+for (let i = 0; i < masyvas1.length; i++) {
+    if(masyvas1[i] === 1) {
+        console.log(masyvas1[i])
+    }
+}
+
+
+console.clear();
+
