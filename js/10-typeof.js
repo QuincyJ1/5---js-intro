@@ -14,3 +14,12 @@ console.log(typeof [1,2]);
 
 
 // typeof rezultatas yra stringas. 
+ console.clear();
+
+
+
+
+
+
+
+   
