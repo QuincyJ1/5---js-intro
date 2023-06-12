@@ -52,3 +52,4 @@ console.log(biggestNumber([1,44,55,66]));
 console.log(biggestNumber([1,54,2,445,4,2]));
 console.log(biggestNumber([1, 98214, 234, 55,2,42,424242]));
 console.log(biggestNumber([-5, -77, -88, -2]));
+

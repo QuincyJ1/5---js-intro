@@ -41,11 +41,13 @@ console.log(isrinktiRaides('dd', Infinity))
 console.log(isrinktiRaides('dd', -Infinity))
 console.log(isrinktiRaides(null, 5))
 console.log(isrinktiRaides('aaa', null))
+console.log(isrinktiRaides(undefined, 5))
 console.log(isrinktiRaides('abcdefg', 2 ))
 console.log(isrinktiRaides('abcdefghijkl', 3))
 
 
-console.clear();
+
+// console.clear();
 console.log('--------------------------------------')
 
 function dalyba (num1, num2) {
@@ -69,6 +71,7 @@ const result = num1 / num2
 
 console.log(dalyba(5, 2))
 console.log(dalyba(-5, 2))
+console.log(dalyba(520, 20))
 console.log(dalyba(Infinity, 2))
 console.log(dalyba(-Infinity, 2))
 console.log(dalyba(0, 2))
