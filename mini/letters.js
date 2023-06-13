@@ -33,7 +33,7 @@ function isrinktiRaides(text,  number) {
         }
     }
 
-    
+}
 
 
 console.log(isrinktiRaides(1561, 2))
