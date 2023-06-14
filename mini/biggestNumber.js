@@ -20,9 +20,7 @@ function biggestNumber(list) {
         }
     }
 
-    if (item > max) {
-        max = item;
-    }
+   
 
   
 
