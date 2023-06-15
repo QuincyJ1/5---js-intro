@@ -1,7 +1,9 @@
 console.clear()
 
 /* 
-for, for-of, while, do-while, for-in
+ array: for, for-of, while, do-while, 
+
+object: for-in
 */
 
 const marks1 = [10, 2, 8, 4, 6];
@@ -61,3 +63,53 @@ do {
 
 console.log('sum:', sum4)
 
+
+console.clear();
+
+//FOR-IN
+
+console.log('-------------------')
+
+const user = {
+    name: 'Jonas',
+    age: 99,
+    isMarried: true,
+};
+
+const userKeys = Object.keys(user); // kreipiames i object klase, jis turi savyje metoda keys, paduodam objekta kaip duomeni() ir jis itrauksviska ka reikia (iskvies raktus).
+
+
+
+for (let i = 0; i<userKeys.length; i++) {
+    console.log(i, userKeys[i], '----', user[userKeys[i]]);
+}
+console.log('-----------------------------------------------');
+for(const key in user) {
+    console.log(key, ':', user[key]);
+}
+
+
+//BUTINA MOKETI PAPRASTA FOR GERAI, BET LABAI GERAI MOKETI SKAITOMUMUI KITUS.
+
+
+console.clear();
+let i = 10
+
+for (; i < 100;) {
+    console.log(i);
+
+    i += 10
+}
+
+console.clear();
+
+const bits = [1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1];
+
+
+
+// continue - ciklo dalis. Ji nurodo testi sekancia iteracija. tarkim for(let i = 0; i < a.length; i++) {
+    // if (sum > 1) {
+          //continue          ----- baigia i < a.length ir eina prie kitos iteracijos, o eina prie i++
+ //   }
+// break irgi yra ciklo dalis. Nutraukia ciklo darba.
+// jie buna ivilkti i if'a.
