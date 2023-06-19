@@ -45,6 +45,6 @@ const abbr = (firstName, lastName) =>
 
 console.log(abbr('Vardenis', 'Pavardenis'));
 
-
+co
 
 
